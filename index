@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Afronosh</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="header">
+    <div id="center">
+      <h1>Afronosh</h1>
+      <ul id="nav">
+        <li><a href="#home"><p>Home</p></a></li>
+        <li><a href="#about"><p>About</p></a></li>
+        <li><a href="#gallery"><p>Gallery</p></a></li>
+        <li class="last"><a href="#contact"><p>Contact</p></a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="main">
+    <div id="container">
+      <div id="home" class="page">
+        <p id="hometext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis tortor vel purus pellentesque vulputate nec nec arcu. Aliquam vel sem ipsum, et tempus enim. Ut in dolor erat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas a justo elit. Nullam ac diam leo, eget aliquam augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Vestibulum sollicitudin quam eget nunc adipiscing eget malesuada tortor faucibus. Etiam ac orci odio, in interdum ante. Curabitur a dolor turpis. Etiam pulvinar viverra lorem quis bibendum. Ut fermentum porta sem, a vestibulum eros viverra sed. Aliquam accumsan convallis neque a elementum. Fusce tincidunt turpis id mi rhoncus et luctus ligula euismod. </p>
+        <img src="images/sidepic.png" width="240" height="377" alt="Afronosh"/>
+      </div>
+      <div id="about" class="page">
+        <div class="left">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis tortor vel purus pellentesque vulputate nec nec arcu. Aliquam vel sem ipsum, et tempus enim. Ut in dolor erat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas a justo elit. Nullam ac diam leo, eget aliquam augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          <p>Vestibulum sollicitudin quam eget nunc adipiscing eget malesuada tortor faucibus. Etiam ac orci odio, in interdum ante. Curabitur a dolor turpis. Etiam pulvinar viverra lorem quis bibendum. Ut fermentum porta sem, a vestibulum eros viverra sed. Aliquam accumsan convallis neque a elementum. Fusce tincidunt turpis id mi rhoncus et luctus ligula euismod. In scelerisque faucibus nisl, vitae convallis arcu fermentum quis. In massa diam, euismod non volutpat ut, vulputate vel sem. Cras quis ligula risus.</p>
+        </div>
+        <div id="billboard">
+          <div id="placeholder">
+            <img src="images/logo.jpg" width="195" height="114" alt="logo"/>
+          </div>
+        </div>
+      </div>
+      <div id="gallery" class="page">
+        <ul class="gallerythumbs">
+            <li class="item"><a class="fancybox" href="images/pictures/1.jpg"><img src="images/thumbnails/1.jpg" width="194" height="109" alt="freebird"/></a></li>
+            <li class="item"><a class="fancybox" href="images/pictures/2jpg"><img src="images/thumbnails/2.jpg" width="194" height="109" alt="freedom"/></a></li>
+            <li class="item"><a class="fancybox" href="images/pictures/3.jpg"><img src="images/thumbnails/3.jpg" width="194" height="109" alt="freeflying"/></a></li>
+            <li class="item"><a class="fancybox" href="images/pictures/4.jpg"><img src="images/thumbnails/4.jpg" width="194" height="109" alt="gliding"/></a></li>
+
+            <li class="item"><a class="fancybox" href="images/pictures/5.jpg"><img src="images/thumbnails/5.jpg" width="194" height="109" alt="horizen"/></a></li>
+            <li class="item"><a class="fancybox" href="images/pictures/6.jpg"><img src="images/thumbnails/6.jpg" width="194" height="109" alt="jet"/></a></li>
+            <li class="item"><a class="fancybox" href="images/pictures/7.jpg"><img src="images/thumbnails/7.jpg" width="194" height="109" alt="racing"/></a></li>
+            <li class="item"><a class="fancybox" href="images/pictures/8.jpg"><img src="images/thumbnails/8.jpg" width="194" height="109" alt="skyhigh"/></a></li>
+            <li class="item"><a class="fancybox" href="images/pictures/9.jpg"><img src="images/thumbnails/9.jpg" width="194" height="109" alt="worldwind"/></a></li>
+          </ul>
+      </div>
+      <div id="contact" class="page">
+        <form id="contactform">
+          <label>Name:</label><br/>
+          <input type="text" name="name" required class="textfields"/><br/>
+          <label>Email:</label><br/>
+          <input type="text" name="email" required class="textfields"/><br/>
+          <label>Comment:</label><br/>
+          <textarea name="comment" cols="" rows="10"></textarea><br/>
+          <input id="button" type="submit"/>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
